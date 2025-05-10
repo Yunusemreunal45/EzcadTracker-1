@@ -89,11 +89,14 @@ class EZCADIntegration:
         
         # Convert DataFrame rows to list of dictionaries
         data_items = []
-        for _, row in df.iterrows():
-            item = {"id": str(row.get("ID", f"Row {_ + 1}"))}
+        for index, row in df.iterrows():
+            row_num = index + 1 if isinstance(index, int) else 1
+            item = {"id": str(row.get("ID", f"Row {row_num}"))}
             for excel_col, entity_name in entity_mappings.items():
                 if excel_col in row:
-                    item[entity_name] = row[excel_col]
+                    cell_value = row[excel_col]
+                    # Ensure the value is a string
+                    item[entity_name] = str(cell_value) if cell_value is not None else ""
             data_items.append(item)
             
         # Process data through bridge

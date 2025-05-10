@@ -49,18 +49,78 @@ def setup_exception_logging():
     sys.excepthook = handle_exception
 
 def check_requirements():
-    """Check for required libraries and show warning if missing"""
-    try:
-        import pandas
-        import watchdog
-        import psutil
-    except ImportError as e:
+    """Check for required libraries and attempt to install if missing"""
+    required_packages = ['pandas', 'watchdog', 'psutil']
+    missing_packages = []
+    
+    # Check which packages are missing
+    for package in required_packages:
+        try:
+            __import__(package)
+        except ImportError:
+            missing_packages.append(package)
+    
+    # If there are missing packages, try to install them
+    if missing_packages:
+        import sys
         from tkinter import messagebox
-        messagebox.showwarning("Missing Dependency", 
-                               f"Required library is missing: {e}\n\n"
-                               "Please install the required packages:\n"
-                               f"pip install pandas watchdog psutil")
-        return False
+        
+        # Inform the user
+        message = f"Missing required packages: {', '.join(missing_packages)}\n\n"
+        message += "Would you like to install them now?"
+        
+        if messagebox.askyesno("Missing Dependencies", message):
+            try:
+                import subprocess
+                
+                # Create a subprocess to install the packages
+                python_exe = sys.executable
+                subprocess.check_call([
+                    python_exe, '-m', 'pip', 'install', 
+                    '--upgrade', 'pip'
+                ])
+                
+                # Install each missing package
+                for package in missing_packages:
+                    print(f"Installing {package}...")
+                    subprocess.check_call([
+                        python_exe, '-m', 'pip', 'install', package
+                    ])
+                
+                # Success message
+                messagebox.showinfo(
+                    "Installation Complete", 
+                    "Required packages have been installed.\nThe application will now continue."
+                )
+                
+                # Verify installation
+                failed_imports = []
+                for package in missing_packages:
+                    try:
+                        __import__(package)
+                    except ImportError:
+                        failed_imports.append(package)
+                
+                if failed_imports:
+                    messagebox.showerror(
+                        "Installation Failed", 
+                        f"Failed to import these packages after installation: {', '.join(failed_imports)}\n"
+                        "Please install them manually and restart the application."
+                    )
+                    return False
+                
+                return True
+                
+            except Exception as e:
+                error_message = f"Failed to install packages: {str(e)}\n\n"
+                error_message += "Please install them manually and restart the application:\n"
+                error_message += f"pip install {' '.join(missing_packages)}"
+                messagebox.showerror("Installation Error", error_message)
+                return False
+        else:
+            # User chose not to install
+            return False
+    
     return True
 
 class EZCADAutomationApp:

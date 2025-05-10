@@ -90,7 +90,14 @@ class ConfigManager:
         """Set a configuration value"""
         if not self.config.has_section(section):
             self.config.add_section(section)
-        self.config.set(section, key, str(value))
+        
+        # Ensure value is a string
+        if value is None:
+            value = ""
+        else:
+            value = str(value)
+            
+        self.config.set(section, key, value)
     
     def save_profile(self, profile_name):
         """Save current configuration as a named profile"""
