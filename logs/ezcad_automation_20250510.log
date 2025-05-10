@@ -371,3 +371,4 @@ MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker
 
 2025-05-10 19:38:50,526 - INFO - Opening EZD file: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/DGA_test_makina_dekafiks_2.ezd
 2025-05-10 19:38:50,527 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 19:38:51,695 - ERROR - Failed to open template: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/DGA_test_makina_dekafiks_2.ezd
