@@ -18,6 +18,7 @@ import tempfile
 import shutil
 import time
 from pathlib import Path
+import ctypes
 
 class EZCADBridge:
     """Bridge for communicating with EZCAD2 via C# bridge application"""
@@ -28,7 +29,7 @@ class EZCADBridge:
         
         Args:
             bridge_exe_path: Path to the EZCADBridge.exe application
-                          If None, it will be searched in standard locations
+                              If None, it will be searched in standard locations
             logger: Logger instance, if None a new one will be created
         """
         self.logger = logger or logging.getLogger('EZCADAutomation.Bridge')
@@ -63,9 +64,16 @@ class EZCADBridge:
         # Verify bridge directory has the required DLL
         bridge_dir = os.path.dirname(self.bridge_exe_path)
         dll_path = os.path.join(bridge_dir, "MarkEzd.dll")
-        if not os.path.exists(dll_path):
+        
+        if os.path.exists(dll_path):
+            try:
+                # DLL dosyasını yükle
+                ctypes.CDLL(dll_path)  # DLL'i yükler
+                self.logger.info(f"Successfully loaded {dll_path}")
+            except Exception as e:
+                self.logger.error(f"Error loading DLL: {str(e)}")
+        else:
             self.logger.warning(f"MarkEzd.dll not found at: {dll_path}")
-            self.logger.warning("The bridge may not function correctly without this DLL")
         
         # Current ezd file
         self.current_ezd_file = None

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Bridge application for EZCAD2 and MarkEzd.dll")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac8e35845a2c816548d92981f05db64961cf987a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d34f8a95e1844a9d0fc12a82004d9302482daf")]
 [assembly: System.Reflection.AssemblyProductAttribute("EZCADBridge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EZCADBridge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
