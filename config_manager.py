@@ -33,7 +33,9 @@ class ConfigManager:
             "ezcad_exe": "",
             "last_excel_dir": "",
             "last_ezd_dir": "",
-            "watch_directory": ""
+            "watch_directory": "",
+            "ezcad_bridge_exe": "",
+            "template_directory": ""
         }
         
         # Settings section
@@ -44,7 +46,9 @@ class ConfigManager:
             "batch_process": "false",
             "max_concurrent_processes": "1",
             "file_pattern_excel": "*.xls;*.xlsx",
-            "file_pattern_ezd": "*.ezd"
+            "file_pattern_ezd": "*.ezd",
+            "update_excel_status": "true",
+            "use_direct_bridge": "true"
         }
         
         # Monitoring section
@@ -52,6 +56,14 @@ class ConfigManager:
             "enabled": "false",
             "interval_seconds": "5",
             "recursive": "false"
+        }
+        
+        # Integration section
+        self.config["Integration"] = {
+            "default_template": "",
+            "default_entity_mapping": "",
+            "auto_save_output": "false",
+            "output_directory": ""
         }
         
         # Save default configuration
