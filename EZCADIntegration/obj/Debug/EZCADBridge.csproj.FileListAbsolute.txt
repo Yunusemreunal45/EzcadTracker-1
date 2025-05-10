@@ -1,0 +1,10 @@
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\EZCADBridge.exe.config
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\EZCADBridge.exe
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\EZCADBridge.pdb
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.csproj.AssemblyReference.cache
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.AssemblyInfoInputs.cache
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.AssemblyInfo.cs
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.exe
+C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\obj\Debug\EZCADBridge.pdb

@@ -1,0 +1,234 @@
+2025-05-10 13:47:42,153 - INFO - Platform: Linux 6.2.16
+2025-05-10 13:47:42,153 - INFO - Platform: Linux 6.2.16
+2025-05-10 13:47:42,153 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:47:42,153 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:47:42,153 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:47:42,153 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:53:38,663 - INFO - Platform: Linux 6.2.16
+2025-05-10 13:53:38,663 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:53:38,664 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:53:48,680 - INFO - Platform: Linux 6.2.16
+2025-05-10 13:53:48,680 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:53:48,681 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:54:07,683 - INFO - Platform: Linux 6.2.16
+2025-05-10 13:54:07,683 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 13:54:07,684 - WARNING - Running in non-Windows environment. EZCAD automation will run in simulation mode.
+2025-05-10 14:01:56,273 - ERROR - EZCADBridge.exe not found in standard locations
+2025-05-10 14:01:56,273 - ERROR - Failed to initialize EZCAD Bridge: EZCADBridge.exe not found. Please build the C# bridge application or specify the path.
+2025-05-10 14:07:40,165 - ERROR - EZCADBridge.exe not found in standard locations
+2025-05-10 14:07:40,165 - ERROR - Failed to initialize EZCAD Bridge: EZCADBridge.exe not found. Please build the C# bridge application or specify the path.
+2025-05-10 14:07:50,196 - ERROR - EZCADBridge.exe not found in standard locations
+2025-05-10 14:07:50,197 - ERROR - Failed to initialize EZCAD Bridge: EZCADBridge.exe not found. Please build the C# bridge application or specify the path.
+2025-05-10 14:08:09,461 - ERROR - EZCADBridge.exe not found in standard locations
+2025-05-10 14:08:09,462 - ERROR - Failed to initialize EZCAD Bridge: EZCADBridge.exe not found. Please build the C# bridge application or specify the path.
+2025-05-10 17:46:08,360 - INFO - Using bridge executable at: C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\EZCADBridge.exe
+2025-05-10 17:46:08,361 - WARNING - MarkEzd.dll not found at: C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\MarkEzd.dll
+2025-05-10 17:46:08,362 - WARNING - The bridge may not function correctly without this DLL
+2025-05-10 17:46:08,362 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 17:46:22,098 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:46:22,139 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:46:22,140 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 17:46:29,943 - INFO - Selected EZD template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:46:29,954 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:46:29,955 - DEBUG - Running bridge command: C:\Users\yunus\Desktop\EzcadTracker-1\EZCADIntegration\bin\Debug\EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:46:33,438 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:46:57,488 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:46:57,488 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:46:57,489 - WARNING - MarkEzd.dll not found at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug\MarkEzd.dll
+2025-05-10 17:46:57,490 - WARNING - The bridge may not function correctly without this DLL
+2025-05-10 17:46:57,490 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 17:46:59,427 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe info
+2025-05-10 17:47:02,494 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 17:47:02,503 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:47:02,503 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:47:05,946 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:47:56,302 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe info
+2025-05-10 17:47:59,126 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 17:47:59,134 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:47:59,134 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:48:01,188 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:48:58,800 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe info
+2025-05-10 17:49:01,907 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 17:49:01,915 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:49:01,916 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:49:03,879 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:51:18,879 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:51:18,881 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 17:52:10,070 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:52:10,101 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:52:10,102 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 17:52:19,537 - INFO - Selected EZD template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:52:19,549 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:52:19,550 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:52:23,067 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 17:59:27,192 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:59:27,193 - ERROR - Bridge executable not found at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:59:27,194 - ERROR - Failed to initialize EZCAD Bridge: Bridge executable not found at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Debug/EZCADBridge.exe
+2025-05-10 17:59:44,678 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:59:44,719 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 17:59:44,720 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 18:00:13,383 - INFO - Selected EZD template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:00:13,387 - ERROR - EZCAD Bridge not initialized
+2025-05-10 18:00:28,926 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:00:28,927 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:00:28,927 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:00:32,906 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe info
+2025-05-10 18:00:36,683 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 18:00:36,699 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:00:36,700 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:00:38,751 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:12:17,350 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:12:17,351 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:12:38,816 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:12:38,834 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:12:38,835 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 18:12:46,051 - INFO - Selected EZD template: C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:12:46,052 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:12:46,053 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:12:49,055 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:13:16,004 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:13:16,004 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:13:16,005 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:13:19,759 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe info
+2025-05-10 18:13:22,491 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 18:13:22,498 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:13:22,499 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:13:24,105 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGA_test_makina_dekafiks_2.ezd
+2025-05-10 18:22:43,082 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:22:43,083 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:23:02,348 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:23:02,377 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:23:02,378 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 18:23:18,817 - INFO - Selected EZD template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:18,820 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:18,821 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:22,463 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:46,332 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:23:46,333 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:23:46,334 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:23:47,686 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe info
+2025-05-10 18:23:51,107 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 18:23:51,117 - INFO - Opening EZD file: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:51,118 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:23:53,153 - ERROR - Failed to open template: C:/Users/yunus/Desktop/DGAtestmakina2dekafiks.ezd
+2025-05-10 18:25:06,139 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:25:06,140 - WARNING - MarkEzd.dll not found at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48\MarkEzd.dll
+2025-05-10 18:25:06,140 - WARNING - The bridge may not function correctly without this DLL
+2025-05-10 18:25:06,141 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:25:17,707 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:25:17,729 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:25:17,730 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 18:25:24,972 - INFO - Selected EZD template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:25:24,974 - INFO - Opening EZD file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:25:24,975 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:25:27,743 - ERROR - Failed to open template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:26:49,770 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:26:49,771 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:26:49,772 - WARNING - MarkEzd.dll not found at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48\MarkEzd.dll
+2025-05-10 18:26:49,772 - WARNING - The bridge may not function correctly without this DLL
+2025-05-10 18:26:49,773 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:26:50,894 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe info
+2025-05-10 18:26:54,383 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Found (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+  - Size: 155.648 bytes
+  - Created: 10.05.2025 13:55:16
+  - Last Modified: 10.05.2025 17:43:45
+
+2025-05-10 18:26:54,392 - INFO - Opening EZD file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:26:54,392 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:26:56,493 - ERROR - Failed to open template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:30:51,581 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:30:51,582 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:31:00,083 - INFO - Loading Excel file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:31:00,116 - INFO - Excel file loaded successfully: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/names.xls
+2025-05-10 18:31:00,117 - DEBUG - Excel dimensions: 5 rows, 11 columns
+2025-05-10 18:31:06,382 - INFO - Selected EZD template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:06,385 - INFO - Opening EZD file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:06,385 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:09,967 - ERROR - Failed to open template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:33,723 - INFO - Selected bridge executable: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:31:33,724 - INFO - Using bridge executable at: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe
+2025-05-10 18:31:33,725 - INFO - EZCAD Bridge initialized successfully
+2025-05-10 18:31:46,229 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe info
+2025-05-10 18:31:50,581 - DEBUG - Bridge output: EZCAD Bridge Application Starting...
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+System Information:
+-------------------
+OS: Microsoft Windows NT 6.2.9200.0
+.NET Version: 4.0.30319.42000
+64-bit OS: True
+64-bit Process: False
+Current Directory: C:\Users\yunus\Desktop\EzcadTracker-1
+MarkEzd.dll: Not found at expected location (C:\Users\yunus\Desktop\EzcadTracker-1\MarkEzd.dll)
+
+2025-05-10 18:31:50,594 - INFO - Opening EZD file: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:50,595 - DEBUG - Running bridge command: C:/Users/yunus/Desktop/EzcadTracker-1/EZCADIntegration/bin/Release/net48/EZCADBridge.exe open C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD
+2025-05-10 18:31:53,575 - ERROR - Failed to open template: C:/Users/yunus/Desktop/Ezcad2.14.11(20230924)/DGAtestmakina1dekafiks.EZD

@@ -177,7 +177,7 @@ namespace EZCADBridge
                 // Try to find it in system paths
                 string[] commonPaths = new string[]
                 {
-                    @"C:\EzCad2",
+                    @"C:\Users\yunus\Desktop\Ezcad2.14.11(20230924)\EzCad2.exe",
                     @"C:\Program Files\EzCad2",
                     @"C:\Program Files (x86)\EzCad2"
                 };
