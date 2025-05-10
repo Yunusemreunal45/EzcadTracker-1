@@ -308,12 +308,14 @@ class EZCADBridge:
         self.logger.debug(f"Running bridge command: {' '.join(command)}")
         
         try:
-            # Run the command
+            # Run the command with UTF-8 encoding to avoid character encoding issues
             process = subprocess.Popen(
                 command, 
                 stdout=subprocess.PIPE, 
                 stderr=subprocess.PIPE,
-                universal_newlines=True
+                universal_newlines=True,
+                encoding='utf-8',
+                errors='replace'  # Replace invalid characters instead of crashing
             )
             
             # Capture output

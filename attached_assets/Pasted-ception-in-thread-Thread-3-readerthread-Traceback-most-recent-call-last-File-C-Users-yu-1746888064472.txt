@@ -1,0 +1,116 @@
+ception in thread Thread-3 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 191: character maps to <undefined>      
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 72: character maps to <undefined>       
+Exception in thread Thread-7 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 72: character maps to <undefined>       
+Exception in thread Thread-9 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-8 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    buffer.append(fh.read())
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 72: character maps to <undefined>       
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 191: character maps to <undefined>      
+Exception in thread Thread-11 (_readerthread):
+Traceback (most recent call last):
+Exception in thread Thread-12 (_readerthread):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    buffer.append(fh.read())
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 191: character maps to <undefined>      
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 72: character maps to <undefined>       
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 839, in callit   
+    func(*args)
+  File "C:\Users\yunus\Desktop\EzcadTracker-1\main.py", line 554, in <lambda>
+    self.root.after(0, lambda: messagebox.showerror("Processing Error", f"Error: {str(e)}"))
+NameError: free variable 'e' referenced before assignment in enclosing scope
+Exception in thread Thread-15 (_readerthread):
+Exception in thread Thread-14 (_readerthread):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self.run()
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1499, in _readerthread 
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    buffer.append(fh.read())
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 23, in decode    
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 72: character maps to <undefined>       
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 191: character maps to <undefined>      
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "C:\Users\yunus\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 839, in callit   
+    func(*args)
+  File "C:\Users\yunus\Desktop\EzcadTracker-1\main.py", line 480, in <lambda>
+    self.root.after(0, lambda: messagebox.showerror("Entity List Error", f"Error: {str(e)}"))
+NameError: free variable 'e' referenced before assignment in enclosing scope

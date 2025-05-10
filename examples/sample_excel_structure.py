@@ -29,9 +29,9 @@ def create_sample_excel():
     if not os.path.exists("examples"):
         os.makedirs("examples")
     
-    # Save to Excel
+    # Save to Excel with UTF-8 encoding
     excel_path = "examples/sample_data.xlsx"
-    df.to_excel(excel_path, index=False)
+    df.to_excel(excel_path, index=False, engine='openpyxl')
     
     print(f"Sample Excel file created at: {excel_path}")
     

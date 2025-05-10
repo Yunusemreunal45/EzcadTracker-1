@@ -322,14 +322,20 @@ class EZCADAutomationApp:
     def _refresh_from_config(self):
         """Refresh UI elements from the config"""
         # Files paths
-        self.excel_path_var.set(self.config.get('Paths', 'last_excel_file', fallback=''))
-        self.ezd_path_var.set(self.config.get('Integration', 'default_template', fallback=''))
-        self.bridge_exe_var.set(self.config.get('Paths', 'ezcad_bridge_exe', fallback=''))
+        excel_file = self.config.get('Paths', 'last_excel_file', fallback='')
+        ezd_template = self.config.get('Integration', 'default_template', fallback='')
+        bridge_exe = self.config.get('Paths', 'ezcad_bridge_exe', fallback='')
+        output_dir = self.config.get('Integration', 'output_directory', fallback='')
         
-        # Settings
+        # Set UI elements safely
+        self.excel_path_var.set(excel_file if excel_file is not None else '')
+        self.ezd_path_var.set(ezd_template if ezd_template is not None else '')
+        self.bridge_exe_var.set(bridge_exe if bridge_exe is not None else '')
+        self.output_dir_var.set(output_dir if output_dir is not None else '')
+        
+        # Settings (booleans)
         self.update_excel_status_var.set(self.config.getboolean('Settings', 'update_excel_status', fallback=True))
         self.auto_save_var.set(self.config.getboolean('Integration', 'auto_save_output', fallback=False))
-        self.output_dir_var.set(self.config.get('Integration', 'output_directory', fallback=''))
     
     def _apply_settings(self):
         """Apply settings from UI to config"""
@@ -443,8 +449,9 @@ class EZCADAutomationApp:
                 self.root.after(0, lambda: self.status_var.set("Bridge connection failed"))
                 
         except Exception as e:
-            self.logger.error(f"Error in bridge test: {str(e)}")
-            self.root.after(0, lambda: messagebox.showerror("Bridge Error", f"Error: {str(e)}"))
+            error_msg = str(e)
+            self.logger.error(f"Error in bridge test: {error_msg}")
+            self.root.after(0, lambda msg=error_msg: messagebox.showerror("Bridge Error", f"Error: {msg}"))
             self.root.after(0, lambda: self.status_var.set("Error"))
     
     def _list_entities(self):
@@ -472,12 +479,13 @@ class EZCADAutomationApp:
             else:
                 entities_text += "  No text entities found in template."
                 
-            self.root.after(0, lambda: self._update_entities_text(entities_text))
-            self.root.after(0, lambda: self.status_var.set(f"Found {len(entities)} entities"))
+            self.root.after(0, lambda text=entities_text: self._update_entities_text(text))
+            self.root.after(0, lambda count=len(entities): self.status_var.set(f"Found {count} entities"))
                 
         except Exception as e:
-            self.logger.error(f"Error listing entities: {str(e)}")
-            self.root.after(0, lambda: messagebox.showerror("Entity List Error", f"Error: {str(e)}"))
+            error_msg = str(e)
+            self.logger.error(f"Error listing entities: {error_msg}")
+            self.root.after(0, lambda msg=error_msg: messagebox.showerror("Entity List Error", f"Error: {msg}"))
             self.root.after(0, lambda: self.status_var.set("Error"))
     
     def _update_entities_text(self, text):
@@ -542,16 +550,21 @@ class EZCADAutomationApp:
                 if output_path and os.path.exists(output_path):
                     message += f"\n\nOutput saved to: {output_path}"
                 
-                self.root.after(0, lambda: messagebox.showinfo("Processing Complete", message))
-                self.root.after(0, lambda: self.status_var.set(f"Processed {success_count}/{total_count} items"))
+                # Pass the message as a parameter to the lambda
+                self.root.after(0, lambda msg=message: messagebox.showinfo("Processing Complete", msg))
+                
+                # Pass the counts as parameters to the lambda
+                status_msg = f"Processed {success_count}/{total_count} items"
+                self.root.after(0, lambda msg=status_msg: self.status_var.set(msg))
             else:
                 error_msg = result.get('error', 'Unknown error')
-                self.root.after(0, lambda: messagebox.showerror("Processing Error", f"Error: {error_msg}"))
+                self.root.after(0, lambda msg=error_msg: messagebox.showerror("Processing Error", f"Error: {msg}"))
                 self.root.after(0, lambda: self.status_var.set("Processing failed"))
                 
         except Exception as e:
-            self.logger.error(f"Error processing Excel: {str(e)}")
-            self.root.after(0, lambda: messagebox.showerror("Processing Error", f"Error: {str(e)}"))
+            error_msg = str(e)
+            self.logger.error(f"Error processing Excel: {error_msg}")
+            self.root.after(0, lambda msg=error_msg: messagebox.showerror("Processing Error", f"Error: {msg}"))
             self.root.after(0, lambda: self.status_var.set("Error"))
     
     def _save_profile(self):
